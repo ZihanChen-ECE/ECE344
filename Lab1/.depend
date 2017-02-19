@@ -1,0 +1,13 @@
+Hash.o: Hash.c
+fact.o: fact.c
+hello.o: hello.c
+hi.o: hi.c
+point.o: point.c common.h point.h
+sorted_points.o: sorted_points.c common.h point.h sorted_points.h
+test.o: test.c
+test_point.o: test_point.c point.h
+test_sorted_points.o: test_sorted_points.c point.h sorted_points.h
+test_wc.o: test_wc.c wc.h
+wc.o: wc.c common.h wc.h
+wc_old.o: wc_old.c common.h wc.h
+words.o: words.c
